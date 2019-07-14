@@ -80,6 +80,14 @@ public class Player {
     public void setTeam(Team team) {
         this.team = team;
     }
+
+    @Override
+    public String toString() {
+        return "Player{" +
+                "id='" + id + '\'' +
+                ", last_name=" + last_name +
+                '}';
+    }
 }
 
 

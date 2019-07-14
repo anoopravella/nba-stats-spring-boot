@@ -1,5 +1,8 @@
 package com.anoop.nbastatsspringboot;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Team {
     private int id;
     private String abbreviation;
